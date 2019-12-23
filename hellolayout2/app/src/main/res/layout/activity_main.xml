@@ -6,8 +6,23 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="20dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:text="red"
         android:background="#FFAAAA"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="green"
+        android:background="#AAFFAA"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="blue"
+        android:background="#AAAAFF"/>
 
 </LinearLayout>
